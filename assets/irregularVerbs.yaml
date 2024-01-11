@@ -1,0 +1,223 @@
+words:
+  Decir:
+    Gerundio:
+      all: diciendo
+    Participio:
+      all: dicho
+    Indicativo Presente:
+      p1: Digo
+      p2: Dices
+      p3: Dice
+      m1: Decimos
+      m2: Decís
+      m3: Dicen
+    Indicativo Pretérito Perfecto:
+      p1: he dicho
+      p2: has dicho
+      p3: ha dicho
+      m1: hemos dicho
+      m2: habeís dicho
+      m3: han dicho
+    Indicativo Pretérito Indefinido:
+      p1: dije
+      p2: dijiste
+      p3: dijo
+      m1: dijimos
+      m2: dijisteis
+      m3: dijeron
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había dicho
+      p2: habías dicho
+      p3: había dicho
+      m1: habíamos dicho
+      m2: habíais dicho
+      m3: habían dicho
+    Indicativo Futuro:
+      p1: diré
+      p2: dirás
+      p3: dirá
+      m1: diremos
+      m2: diréis
+      m3: dirán
+    Indicativo Futuro Perfecto:
+      p1: habré dicho
+      p2: habrás dicho
+      p3: habrá dicho
+      m1: habremos dicho
+      m2: habréis dicho
+      m3: habrán dicho
+    Imperativo:
+      p2: di
+      p3: diga
+      m1: digamos
+      m2: decid
+      m3: digan
+    Condicional:
+      p1: diría
+      p2: dirías
+      p3: diría
+      m1: diríamos
+      m2: diríais
+      m3: dirían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: diga
+      p2: digas
+      p3: diga
+      m1: digamos
+      m2: digáis
+      m3: digan
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera dicho
+      p2: hubieras dicho
+      p3: hubiera dicho
+      m1: hubiéramos dicho
+      m2: hubierais dicho
+      m3: hubieran dicho
+  Hacer: 
+    Gerundio:
+      all: haciendo
+    Participio:
+      all: hecho
+    Indicativo Presente:
+      p1: hago
+      p2: haces
+      p3: hace
+      m1: hacemos
+      m2: haceís
+      m3: hacen
+    Indicativo Pretérito Perfecto:
+      p1: he hecho
+      p2: has hecho
+      p3: ha hecho
+      m1: hemos hecho
+      m2: habéis hecho
+      m3: han hecho
+    Indicativo Pretérito Indefinido:
+      p1: hice
+      p2: hices
+      p3: hizo
+      m1: hicimos
+      m2: hicisteis
+      m3: hicieron
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había hecho
+      p2: habías hecho
+      p3: había hecho
+      m1: habíamos hecho
+      m2: habíais hecho
+      m3: habían hecho
+    Indicativo Futuro:
+      p1: haré
+      p2: harás
+      p3: hará
+      m1: haremos
+      m2: haréis
+      m3: harán
+    Indicativo Futuro Perfecto:
+      p1: habré hecho
+      p2: habrás hecho
+      p3: habrá hecho
+      m1: habremos hecho
+      m2: habréis hecho
+      m3: habrán hecho
+    Imperativo:
+      p2: haz
+      p3: haga
+      m1: hagamos
+      m2: haced
+      m3: hagan
+    Condicional:
+      p1: haría
+      p2: harías
+      p3: haría
+      m1: haríamos
+      m2: haríais
+      m3: harían hecho
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: haga
+      p2: hagas
+      p3: haga
+      m1: hagamos
+      m2: hagáís
+      m3: hagan
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera hecho
+      p2: hubieras hecho
+      p3: hubiera hecho
+      m1: hubiéramos hecho
+      m2: hubierais hecho
+      m3: hubieran hecho
+  Ir:
+    Gerundio:
+      all: yendo
+    Participio:
+      all: ido
+    Indicativo Presente:
+      p1: voy
+      p2: vas
+      p3: va
+      m1: vamos
+      m2: vais
+      m3: van
+    Indicativo Pretérito Perfecto:
+      p1: he ido
+      p2: has ido
+      p3: ha ido
+      m1: hemos ido
+      m2: habéis ido
+      m3: han ido
+    Indicativo Pretérito Indefinido:
+      p1: fui
+      p2: fuiste
+      p3: fue
+      m1: fuimos
+      m2: fuisteis
+      m3: fueron
+    Indicativo Pretérito Imperfecto:
+      p1: iba
+      p2: ibas
+      p3: iba
+      m1: ibamos
+      m2: ibais
+      m3: iban
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había ido
+      p2: habías ido
+      p3: había ido
+      m1: habíamos ido
+      m2: habíais ido
+      m3: habían ido
+    Indicativo Futuro:
+      p1: iré
+      p2: irás
+      p3: irá
+      m1: iremos
+      m2: iréis
+      m3: irán
+    Indicativo Futuro Perfecto:
+      p1: habré ido
+      p2: habrás ido
+      p3: habrá ido
+      m1: habremos ido
+      m2: habréis ido
+      m3: habrán ido
+    Imperativo:
+      p2: ve
+      p3: vaya
+      m1: vamos
+      m2: id
+      m3: vayan
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: vaya
+      p2: vayas
+      p3: vaya
+      m1: vayamos
+      m2: vayáis
+      m3: vayan
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera ido
+      p2: hubieras ido
+      p3: hubiera ido
+      m1: hubiéramos ido
+      m2: hubierais ido
+      m3: hubieran ido

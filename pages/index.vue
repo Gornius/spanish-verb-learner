@@ -1,10 +1,7 @@
-<script setup lang="ts">
-const wordsDictionary = useWordsDictionary();
-
-</script>
-
 <template>
-    <div class="space-y-8">
-        <QuestionCard v-for="verb in wordsDictionary.irregularVerbsList" :verb="verb"/>
+    <div class="flex align m-8 justify-center">
+        <div class="max-w-4xl flex-grow">
+            <ViewQuiz />
+        </div>
     </div>
 </template>

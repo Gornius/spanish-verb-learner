@@ -19,8 +19,16 @@ export function useWordsDictionary() {
         });
     });
 
+    function getRandomWord() {
+        const min = Math.ceil(0);
+        const max = Math.floor(irregularVerbsList.length);
+        const random =  Math.floor(Math.random() * (max - min) + min)
+        return irregularVerbsList[random];
+    }
+
     return {
         irregularVerbs,
         irregularVerbsList,
+        getRandomWord,
     }
 }

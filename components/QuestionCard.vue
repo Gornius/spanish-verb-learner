@@ -1,55 +1,49 @@
 <script setup lang="ts">
 import type { Verb } from '~/models/Verb';
+import { Icon } from '@iconify/vue';
+
+const wordsDictionary = useWordsDictionary();
 
 const props = defineProps<{
     verb: Verb,
 }>();
 
-const personDict = {
-    p1: '1. Singular',
-    p2: '2. Singular',
-    p3: '3. Singular',
-    m1: '1. Plural',
-    m2: '2. Plural',
-    m3: '3. Plural',
-    all: 'Any',
-}
-function getPerson() {
-    return personDict[props.verb.person];
-}
+const emits = defineEmits<{
+    (e: 'answerGiven', answer: string): void
+}>();
 
-const input = ref<string>();
+const answer = useState<string>();
+
+function giveAnswer() {
+    emits('answerGiven', answer.value);
+    answer.value = '';
+}
 </script>
 <template>
-    <UCard>
-        <div class="flex flex-row items-middle justify-center">
-            <div class="flex flex-col flex-grow basis-0 text-center">
-                <div class="text-2xl">
+    <form @submit.prevent="giveAnswer">
+        <Card class="mt-6 flex flex-row divide-x justify-evenly">
+            <CardContent class="grow pt-6 flex flex-col max-w-96 gap-2">
+                <div class="text-4xl text-center">
                     {{ verb.base }}
                 </div>
-                <div class="flex-row">
-                    <div class="flex flex-row space-x-2 flex-grow items-center justify-center">
-                        <div>
-                            <UIcon name="mingcute:time-line" dynamic />
-                            {{ verb.time }}
-                        </div>
-                    </div>
-                    <div class="flex flex-row space-x-2 flex-grow items-center justify-center">
-                        <div>
-                            <UIcon name="carbon:person" dynamic/>
-                            {{ getPerson() }}
-                        </div>
-                    </div>
+                <div class="text-lg text-center">
+                    <Icon icon="ri:time-line" class="inline mr-2" /> {{ verb.time }}
                 </div>
-            </div>
-            <UDivider :type="'solid'" orientation="vertical" class="w-8" />
-            <div class="flex flex-col flex-grow basis-0 items-center justify-center">
-                <div class="flex flex-col justify-center align-middle space-y-1">
-                    <UInput v-model="input">
-                    </UInput>
-                    <UButton class="rounded-full justify-center">Check</UButton>
+                <div class="text-lg text-center">
+                    <Icon icon="material-symbols:person" class="inline mr-2" /> {{ wordsDictionary.getPerson(props.verb) }}
                 </div>
-            </div>
-        </div>
-    </UCard>
+            </CardContent>
+            <CardContent class="grow pt-6 flex flex-col justify-center gap-2">
+                    <div>
+                        <Label for="answer">Odpowiedz</Label>
+                    </div>
+                    <div class="flex flex-row gap-2">
+                        <Input id="answer" class="flex-grow" v-model="answer" />
+                        <Button type="submit" class="aspect-square p-0">
+                            <Icon icon="ooui:next-ltr"/>
+                        </Button>
+                    </div>
+            </CardContent>
+        </Card>
+    </form>
 </template>

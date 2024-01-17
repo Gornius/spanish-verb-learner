@@ -4,6 +4,19 @@ import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
 
 export function useWordsDictionary() {
+    function getPerson(verb: Verb) {
+        const personDictionary = {
+            p1: '1. Singular',
+            p2: '2. Singular',
+            p3: '3. Singular',
+            m1: '1. Plural',
+            m2: '2. Plural',
+            m3: '3. Plural',
+            all: 'Any',
+        }
+        return personDictionary[verb.person];
+    }
+
     const irregularVerbs = Object.entries(YAML.parse(irregularVerbsFile).words) as [string, DictionaryEntry][];
     const irregularVerbsList = [] as Verb[];
     irregularVerbs.forEach(([base, times]) => {
@@ -30,5 +43,6 @@ export function useWordsDictionary() {
         irregularVerbs,
         irregularVerbsList,
         getRandomWord,
+        getPerson,
     }
 }

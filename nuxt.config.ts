@@ -3,7 +3,10 @@ import path from 'path';
 
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui',
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
   ],
   devtools: { enabled: true },
   ssr: false,

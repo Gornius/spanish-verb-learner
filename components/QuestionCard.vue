@@ -21,8 +21,8 @@ function giveAnswer() {
 </script>
 <template>
     <form @submit.prevent="giveAnswer">
-        <Card class="mt-6 flex flex-row divide-x justify-evenly">
-            <CardContent class="grow pt-6 flex flex-col max-w-96 gap-2">
+        <Card class="mt-6 flex flex-col divide-y justify-evenly md:flex-row md:divide-y-0 md:divide-x">
+            <CardContent class="grow pt-6 flex flex-col md:max-w-96 gap-2 content-center justify-center">
                 <div class="text-4xl text-center">
                     {{ verb.base }}
                 </div>
@@ -35,7 +35,7 @@ function giveAnswer() {
             </CardContent>
             <CardContent class="grow pt-6 flex flex-col justify-center gap-2">
                     <div>
-                        <Label for="answer">Odpowiedz</Label>
+                        <Label for="answer">Answer</Label>
                     </div>
                     <div class="flex flex-row gap-2">
                         <Input id="answer" class="flex-grow" v-model="answer" />

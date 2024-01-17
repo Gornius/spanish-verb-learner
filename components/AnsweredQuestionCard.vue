@@ -8,7 +8,7 @@ const props = defineProps<{
     answer: Answer,
 }>();
 
-const isCorrect = computed(() => props.answer.answer === props.answer.verb.word);
+const isCorrect = computed(() => props.answer.answer.toLocaleLowerCase() === props.answer.verb.word.toLocaleLowerCase());
 
 </script>
 <template>

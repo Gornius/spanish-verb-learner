@@ -37,6 +37,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.9.0
+      - name: Download deps
+        run: npm install
       - name: Build static Nuxt assets
         run: npm run generate
       - name: Upload artifact

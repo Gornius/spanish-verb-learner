@@ -39,10 +39,20 @@ export function useWordsDictionary() {
         return irregularVerbsList[random];
     }
 
+    function getAvailableTimes() {
+        return [...new Set(irregularVerbsList.map((verb) => verb.time))];
+    }
+
+    function getAvailablePersons() {
+        return [...new Set(irregularVerbsList.map((verb) => verb.person))];
+    }
+
     return {
         irregularVerbs,
         irregularVerbsList,
         getRandomWord,
         getPerson,
+        getAvailableTimes,
+        getAvailablePersons,
     }
 }

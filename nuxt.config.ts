@@ -1,6 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import path from 'path';
-
 export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
@@ -8,6 +6,14 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@vueuse/nuxt',
   ],
+  imports: {
+    presets: [
+      {
+        from: '@iconify/vue',
+        imports: ['Icon'],
+      }
+    ]
+  },
   devtools: { enabled: true },
   ssr: false,
 })

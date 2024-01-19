@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@vueuse/nuxt',
+    '@formkit/auto-animate/nuxt',
   ],
   imports: {
     presets: [

@@ -20,7 +20,6 @@ const toggleDarkMode = useToggle(darkMode);
                 <label>Dark mode</label>
                 <div class="flex-grow"></div>
                 <Switch :checked="darkMode" @update:checked="toggleDarkMode" />
-
             </div>
         </DialogContent>
         <div v-if="opened === true"></div>

@@ -6,9 +6,9 @@ const toggleDarkMode = useToggle(darkMode);
 </script>
 
 <template>
-    <Dialog class="w-full">
-        <DialogTrigger class="w-full">
-            <div class="cursor-pointer text-3xl w-min p-2 bg-primary text-primary-foreground rounded-md sticky top-2 m-2 ml-auto">
+    <Dialog>
+        <DialogTrigger>
+            <div class="cursor-pointer text-3xl w-min p-2 bg-primary text-primary-foreground rounded-md sticky">
                 <Icon icon="ci:settings" class="m-0"/>
             </div>
         </DialogTrigger>

@@ -14,7 +14,7 @@ const toggleDarkMode = useToggle(darkMode);
         </DialogTrigger>
         <DialogContent>
             <DialogHeader>
-                Ustawienia
+                Settings
             </DialogHeader>
             <div class="flex flex-row gap-4">
                 <label>Dark mode</label>

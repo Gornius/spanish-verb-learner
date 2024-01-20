@@ -20,6 +20,9 @@ export const useStoreQuiz = defineStore('quiz', () => {
         const random =  Math.floor(Math.random() * (max - min) + min)
         currentVerb.value = list[random];
     }
+    watch([storeSettings.pickedPersons, storeSettings.pickedTimes], () => {
+        getNextVerb();
+    }, { deep: true });
     getNextVerb();
 
     return {

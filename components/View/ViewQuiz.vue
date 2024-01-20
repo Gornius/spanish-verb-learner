@@ -12,8 +12,10 @@ function handleAnswerGiven(answer: string) {
 </script>
 
 <template>
-    <div class="space-y-8">
+    <div class="space-y-4">
         <QuestionCard @answer-given="handleAnswerGiven" :verb="quizStore.currentVerb" />
-        <AnsweredQuestionCard v-for="answer in quizStore.previousAnswers.toReversed()" :answer="answer" />
+        <div v-auto-animate class="flex flex-col-reverse gap-2">            
+            <AnsweredQuestionCard v-for="answer in quizStore.previousAnswers" :key="answer.verb.word" :answer="answer" />
+        </div>
     </div>
 </template>

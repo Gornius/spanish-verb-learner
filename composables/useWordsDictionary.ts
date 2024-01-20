@@ -4,7 +4,7 @@ import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
 
 export function useWordsDictionary() {
-    function getPerson(verb: Verb) {
+    function getPerson(verb: Verb | Verb['person']) {
         const personDictionary = {
             p1: '1. Singular',
             p2: '2. Singular',
@@ -13,6 +13,9 @@ export function useWordsDictionary() {
             m2: '2. Plural',
             m3: '3. Plural',
             all: 'Any',
+        }
+        if (typeof verb === 'string') {
+            return personDictionary[verb as Verb['person']];
         }
         return personDictionary[verb.person];
     }
@@ -32,13 +35,6 @@ export function useWordsDictionary() {
         });
     });
 
-    function getRandomWord() {
-        const min = Math.ceil(0);
-        const max = Math.floor(irregularVerbsList.length);
-        const random =  Math.floor(Math.random() * (max - min) + min)
-        return irregularVerbsList[random];
-    }
-
     function getAvailableTimes() {
         return [...new Set(irregularVerbsList.map((verb) => verb.time))];
     }
@@ -50,7 +46,6 @@ export function useWordsDictionary() {
     return {
         irregularVerbs,
         irregularVerbsList,
-        getRandomWord,
         getPerson,
         getAvailableTimes,
         getAvailablePersons,

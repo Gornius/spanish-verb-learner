@@ -8,7 +8,7 @@ const toggleDarkMode = useToggle(darkMode);
 <template>
     <Dialog>
         <DialogTrigger>
-            <div class="cursor-pointer text-3xl w-min p-2 bg-primary text-primary-foreground rounded-md sticky">
+            <div class="text-3xl p-2 bg-primary text-primary-foreground rounded-md">
                 <Icon icon="ci:settings" class="m-0"/>
             </div>
         </DialogTrigger>

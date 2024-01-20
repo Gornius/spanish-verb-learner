@@ -13,6 +13,7 @@ const storeSettings = useStoreSettings();
         </DialogTrigger>
         <DialogContent>
             <DialogHeader>
+                Pick a time
             </DialogHeader>
             <div class="flex flex-col gap-1">
                 <div class="flex flex-row" v-for="time in storeSettings.pickedTimes">

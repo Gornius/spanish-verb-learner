@@ -22,6 +22,7 @@ const storeSettings = useStoreSettings();
                     <div class="flex-grow"></div>
                     <div><Switch :checked="person.checked" @update:checked="(checked) => person.checked = checked" /></div>
                 </div>
+                <Button type="button" variant="secondary" @click="storeSettings.checkUncheckAllPersons">Check/Uncheck all</Button>
             </div>
         </DialogContent>
     </Dialog>

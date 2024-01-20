@@ -11,10 +11,20 @@ type CheckedPerson = {
     checked: boolean,
 }
 
+type CheckedVerbsList = {
+    name: string,
+    verbs: Verb[],
+    checked: boolean,
+}
+
 export const useStoreSettings = defineStore('settings', () => {
     const wordsDictionary = useWordsDictionary();
-    const pickedTimes = useLocalStorage('pickedTimes', (() => wordsDictionary.getAvailableTimes().map((time) => ({ checked: true, name: time } as CheckedTime)))());
-    const pickedPersons = useLocalStorage('pickedPersons', (() => wordsDictionary.getAvailablePersons().map((time) => ({ checked: true, name: time } as CheckedPerson)))());
+    const pickedVerbsTypes = ref<CheckedVerbsList[]>([ { verbs: wordsDictionary.irregularVerbsList, checked: true, name: 'Irregular' }, { verbs: wordsDictionary.regularVerbsList, checked: true, name: 'Regular' } ]);
+    const verbsPool = computed(() => pickedVerbsTypes.value.reduce((pool, current) => {
+        return current.checked ? [...pool, ...current.verbs] : pool;
+    }, [] as Verb[]));
+    const pickedTimes = ref((() => wordsDictionary.getAvailableTimes(verbsPool.value).map((time) => ({ checked: true, name: time } as CheckedTime)))());
+    const pickedPersons = ref((() => wordsDictionary.getAvailablePersons(verbsPool.value).map((time) => ({ checked: true, name: time } as CheckedPerson)))());
 
     function checkUncheckAllTimes() {
         let boolValForAll = true;
@@ -41,6 +51,8 @@ export const useStoreSettings = defineStore('settings', () => {
         pickedPersons: skipHydrate(pickedPersons),
         checkUncheckAllPersons,
         checkUncheckAllTimes,
+        pickedVerbsTypes,
+        verbsPool,
     };
 
 });

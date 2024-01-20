@@ -1,4 +1,5 @@
-import irregularVerbsFile from '~/assets/irregularVerbs.yaml?raw';
+import irregularVerbsYaml from '~/assets/irregularVerbs.yaml?raw';
+import regularVerbsYaml from '~/assets/regularVerbs.yaml?raw';
 import YAML from 'yaml';
 import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
@@ -20,32 +21,38 @@ export function useWordsDictionary() {
         return personDictionary[verb.person];
     }
 
-    const irregularVerbs = Object.entries(YAML.parse(irregularVerbsFile).words) as [string, DictionaryEntry][];
-    const irregularVerbsList = [] as Verb[];
-    irregularVerbs.forEach(([base, times]) => {
-        return Object.entries(times).forEach(([time, persons]) => {
-            return Object.entries(persons).forEach(([person, word]) => {
-                irregularVerbsList.push({
-                    base: base,
-                    time: time,
-                    person: person as Verb['person'],
-                    word: word,
+    function getVerbsListFromYaml(yamlFileContent: string) {
+        const verbs = Object.entries(YAML.parse(yamlFileContent).words) as [string, DictionaryEntry][];
+        const verbsList = [] as Verb[];
+        verbs.forEach(([base, times]) => {
+            return Object.entries(times).forEach(([time, persons]) => {
+                return Object.entries(persons).forEach(([person, word]) => {
+                    verbsList.push({
+                        base: base,
+                        time: time,
+                        person: person as Verb['person'],
+                        word: word,
+                    });
                 });
             });
         });
-    });
+        return verbsList;
+    }
 
-    function getAvailableTimes() {
+    const irregularVerbsList = getVerbsListFromYaml(irregularVerbsYaml);
+    const regularVerbsList = getVerbsListFromYaml(regularVerbsYaml);
+
+    function getAvailableTimes(verbsList: Verb[]) {
         return [...new Set(irregularVerbsList.map((verb) => verb.time))];
     }
 
-    function getAvailablePersons() {
+    function getAvailablePersons(verbsList: Verb[]) {
         return [...new Set(irregularVerbsList.map((verb) => verb.person))];
     }
 
     return {
-        irregularVerbs,
         irregularVerbsList,
+        regularVerbsList,
         getPerson,
         getAvailableTimes,
         getAvailablePersons,

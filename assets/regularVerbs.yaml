@@ -1,0 +1,237 @@
+words:
+  Ir:
+    Participio:
+      all: ido
+    Indicativo Pretérito Perfecto:
+      p1: he ido
+      p2: has ido
+      p3: ha ido
+      m1: hemos ido
+      m2: habéis ido
+      m3: han ido
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había ido
+      p2: habías ido
+      p3: había ido
+      m1: habíamos ido
+      m2: habíais ido
+      m3: habían ido
+    Indicativo Futuro:
+      p1: iré
+      p2: irás
+      p3: irá
+      m1: iremos
+      m2: iréis
+      m3: irán
+    Indicativo Futuro Perfecto:
+      p1: habré ido
+      p2: habrás ido
+      p3: habrá ido
+      m1: habremos ido
+      m2: habréis ido
+      m3: habrán ido
+    Condicional:
+      p1: iría
+      p2: irías
+      p3: iría
+      m1: iríamos
+      m2: irías
+      m3: irían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera ido
+      p2: hubieras ido
+      p3: hubiera ido
+      m1: hubiéramos ido
+      m2: hubierais ido
+      m3: hubieran ido
+  Poner:
+    Gerundio:
+      all: poniendo
+    Indicativo Pretérito Imperfecto:
+      p1: ponía
+      p2: ponías
+      p3: ponía
+      m1: poníamos
+      m2: poníais
+      m3: ponían
+  Tener:
+    Gerundio:
+      all: teniendo
+    Participio:
+      all: tenido
+    Indicativo Pretérito Perfecto:
+      p1: he tenido
+      p2: has tenido
+      p3: ha tenido tenido
+      m1: hemos tenido
+      m2: habéis tenido
+      m3: han tenido
+    Indicativo Pretérito Imperfecto:
+      p1: tennía
+      p2: tenías
+      p3: tenía
+      m1: teníamos
+      m2: teníais
+      m3: tenían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había tenido
+      p2: habías tenido
+      p3: había tenido
+      m1: habíamos tenido
+      m2: habíais tenido
+      m3: habían tenido
+    Indicativo Futuro Perfecto:
+      p1: habré tenido
+      p2: habrás tenido
+      p3: habrá tenido
+      m1: habremos tenido
+      m2: habréis tenido
+      m3: habrán tenido
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera tenido
+      p2: hubieras tenido
+      p3: hubiera tenido
+      m1: hubiéramos tenido
+      m2: hubierais tenido
+      m3: hubieran tenido
+  Ser:
+    Gerundio:
+      all: siendo
+    Participio:
+      all: sido
+    Indicativo Pretérito Perfecto:
+      p1: he sido
+      p2: has sido
+      p3: ha sido
+      m1: hemos sido
+      m2: habéis sido
+      m3: han sido
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había sido
+      p2: habías sido
+      p3: había sido
+      m1: habíamos sido
+      m2: habíais sido
+      m3: habían sido
+    Indicativo Futuro:
+      p1: seré
+      p2: serás
+      p3: será
+      m1: seremos
+      m2: seréis
+      m3: serán
+    Indicativo Futuro Perfecto:
+      p1: habré sido
+      p2: habrás sido
+      p3: habrá sido
+      m1: habremos sido
+      m2: habréis sido
+      m3: habrán sido
+    Condicional:
+      p1: sería
+      p2: serías
+      p3: sería
+      m1: seríamos
+      m2: seríais
+      m3: serían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera sido
+      p2: hubieras sido
+      p3: hubiera sido
+      m1: hubiéramos sido
+      m2: hubierais sido
+      m3: hubieran sido
+  Estar:
+    Gerundio:
+      all: estando
+    Participio:
+      all: estado
+    Indicativo Pretérito Perfecto:
+      p1: he estado
+      p2: has estado
+      p3: ha estado
+      m1: hemos estado
+      m2: habéis estado
+      m3: han estado
+    Indicativo Pretérito Imperfecto:
+      p1: estaba
+      p2: estabas
+      p3: estaba
+      m1: estábamos
+      m2: estabais
+      m3: estaban
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había estado
+      p2: habías estado
+      p3: había estado
+      m1: habíamos estado
+      m2: habíais estado
+      m3: habían estado
+    Indicativo Futuro:
+      p1: estaré
+      p2: estarás
+      p3: estará
+      m1: estaremos
+      m2: estaréis
+      m3: estarán
+    Indicativo Futuro Perfecto:
+      p1: habré estado
+      p2: habrás estado
+      p3: habrá estado
+      m1: habremos estado
+      m2: habréis estado
+      m3: habrán estado
+    Condicional:
+      p1: estaría
+      p2: estarías
+      p3: estaría
+      m1: estaríamos
+      m2: estaríais
+      m3: estarían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera estado
+      p2: hubieras estado
+      p3: hubiera estado
+      m1: hubiéramos estado
+      m2: hubierais estado
+      m3: hubieran estado
+  Saber:
+    Gerundio:
+      all: sabiendo
+    Participio:
+      all: sabido
+    Indicativo Pretérito Perfecto:
+      p1: he sabido
+      p2: has sabido
+      p3: ha sabido
+      m1: hemos sabido
+      m2: habéis sabido
+      m3: han sabido
+    Indicativo Pretérito Imperfecto:
+      p1: sabía
+      p2: sabías
+      p3: sabía
+      m1: sabíamos
+      m2: sabíais
+      m3: sabían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había sabido
+      p2: habías sabido
+      p3: había sabido
+      m1: habíamos sabido
+      m2: habíais sabido
+      m3: habían sabido
+    Indicativo Futuro Perfecto:
+      p1: habré sabido
+      p2: habrás sabido
+      p3: habrá sabido
+      m1: habremos sabido
+      m2: habréis sabido
+      m3: habrán sabido
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera sabido
+      p2: hubieras sabido
+      p3: hubiera sabido
+      m1: hubiéramos sabido
+      m2: hubierais sabido
+      m3: hubieran sabido          

@@ -12,7 +12,7 @@ export const useStoreQuiz = defineStore('quiz', () => {
     const currentVerb = ref<Verb | undefined>();
 
     function getNextVerb() {
-        const list = wordsDictionary.irregularVerbsList
+        const list = storeSettings.verbsPool
             .filter((verb) => !storeSettings.pickedPersons.some((person) => person.checked === false && person.name === verb.person))
             .filter((verb) => !storeSettings.pickedTimes.some((time) => time.checked === false && time.name == verb.time));
         if (list.length === 0) {
@@ -23,7 +23,7 @@ export const useStoreQuiz = defineStore('quiz', () => {
         const random =  Math.floor(Math.random() * (max - min) + min)
         currentVerb.value = list[random];
     }
-    watch([storeSettings.pickedPersons, storeSettings.pickedTimes], () => {
+    watch([storeSettings.pickedPersons, storeSettings.pickedTimes, storeSettings.pickedVerbsTypes], () => {
         getNextVerb();
     }, { deep: true });
     getNextVerb();

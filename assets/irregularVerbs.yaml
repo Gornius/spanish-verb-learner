@@ -74,8 +74,6 @@ words:
       m2: hubierais dicho
       m3: hubieran dicho
   Hacer: 
-    Gerundio:
-      all: haciendo
     Participio:
       all: hecho
     Indicativo Presente:
@@ -150,8 +148,6 @@ words:
   Ir:
     Gerundio:
       all: yendo
-    Participio:
-      all: ido
     Indicativo Presente:
       p1: voy
       p2: vas
@@ -159,13 +155,6 @@ words:
       m1: vamos
       m2: vais
       m3: van
-    Indicativo Pretérito Perfecto:
-      p1: he ido
-      p2: has ido
-      p3: ha ido
-      m1: hemos ido
-      m2: habéis ido
-      m3: han ido
     Indicativo Pretérito Indefinido:
       p1: fui
       p2: fuiste
@@ -180,27 +169,6 @@ words:
       m1: ibamos
       m2: ibais
       m3: iban
-    Indicativo Pretérito Plusquamperfecto:
-      p1: había ido
-      p2: habías ido
-      p3: había ido
-      m1: habíamos ido
-      m2: habíais ido
-      m3: habían ido
-    Indicativo Futuro:
-      p1: iré
-      p2: irás
-      p3: irá
-      m1: iremos
-      m2: iréis
-      m3: irán
-    Indicativo Futuro Perfecto:
-      p1: habré ido
-      p2: habrás ido
-      p3: habrá ido
-      m1: habremos ido
-      m2: habréis ido
-      m3: habrán ido
     Imperativo:
       p2: ve
       p3: vaya
@@ -214,10 +182,222 @@ words:
       m1: vayamos
       m2: vayáis
       m3: vayan
+  Poner:
+    Participio:
+      all: puesto
+    Indicativo Presente:
+      p1: pongo
+      p2: pones
+      p3: pone
+      m1: ponemos
+      m2: ponéis
+      m3: ponen
+    Indicativo Pretérito Perfecto:
+      p1: he puesto
+      p2: has puesto
+      p3: ha puesto
+      m1: hemos puesto
+      m2: habéis puesto
+      m3: han puesto
+    Indicativo Pretérito Indefinido:
+      p1: puse
+      p2: pusiste
+      p3: puso
+      m1: pusimos
+      m2: pusisteis
+      m3: pusieron
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había puesto
+      p2: habías puesto
+      p3: había puesto
+      m1: habíamos puesto
+      m2: habíais puesto
+      m3: habían puesto
+    Indicativo Futuro:
+      p1: pondré
+      p2: pondrás
+      p3: pondrá
+      m1: pondremos
+      m2: pondréis
+      m3: pondrán
+    Indicativo Futuro Perfecto:
+      p1: habré puesto
+      p2: habrás puesto
+      p3: habrá puesto
+      m1: habremos puesto
+      m2: habréis puesto
+      m3: habrán puesto
+    Imperativo:
+      p2: pon
+      p3: ponga
+      m1: pongamos
+      m2: poned
+      m3: pongan
+    Condicional:
+      p1: pondría
+      p2: pondrías
+      p3: pondría
+      m1: pondríamos
+      m2: pondríais
+      m3: pondrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: ponga
+      p2: pongas
+      p3: ponga
+      m1: pongamos
+      m2: pongáis
+      m3: pongan
     Subjuntivo Pretérito Plusquamperfecto:
-      p1: hubiera ido
-      p2: hubieras ido
-      p3: hubiera ido
-      m1: hubiéramos ido
-      m2: hubierais ido
-      m3: hubieran ido
+      p1: hubiera puesto
+      p2: hubieras puesto
+      p3: hubiera puesto
+      m1: hubiéramos puesto
+      m2: hubierais puesto
+      m3: hubieran puesto
+  Tener:
+    Indicativo Presente:
+      p1: tengo
+      p2: tienes
+      p3: tiene
+      m1: tenemos
+      m2: tenéis
+      m3: tienen
+    Indicativo Pretérito Indefinido:
+      p1: tuve
+      p2: tuviste
+      p3: tuvo
+      m1: tuvimos
+      m2: tuvisteis
+      m3: tuvieron
+    Indicativo Futuro:
+      p1: tendré
+      p2: tendrás
+      p3: tendrá
+      m1: tendremos
+      m2: tendréis
+      m3: tendrán
+    Imperativo:
+      p2: ten
+      p3: tenga
+      m1: tengamos
+      m2: tened
+      m3: tengan
+    Condicional:
+      p1: tendría
+      p2: tendrías
+      p3: tendría
+      m1: tendríamos
+      m2: tendríais
+      m3: tendrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: tenga
+      p2: tengas
+      p3: tenga
+      m1: tengamos
+      m2: tengáis
+      m3: tengan
+  Ser:
+    Indicativo Presente:
+      p1: soy
+      p2: eres
+      p3: es
+      m1: somos
+      m2: sois
+      m3: son
+    Indicativo Pretérito Indefinido:
+      p1: fui
+      p2: fuiste
+      p3: fue
+      m1: fuimos
+      m2: fuisteis
+      m3: fueron
+    Indicativo Pretérito Imperfecto:
+      p1: era
+      p2: era
+      p3: era
+      m1: éramos
+      m2: erais
+      m3: eran
+    Imperativo:
+      p2: sé
+      p3: sea
+      m1: seamos
+      m2: sed
+      m3: sean
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: sea
+      p2: seas
+      p3: sea
+      m1: seamos
+      m2: seáis
+      m3: sean
+  Estar:
+    Indicativo Presente:
+      p1: estoy
+      p2: estás
+      p3: está
+      m1: estamos
+      m2: estáis
+      m3: están
+    Indicativo Pretérito Indefinido:
+      p1: estuve
+      p2: estuviste
+      p3: estuvo
+      m1: estuvimos
+      m2: estuvisteis
+      m3: estuvieron
+    Imperativo:
+      p2: está
+      p3: esté
+      m1: estemos
+      m2: estad
+      m3: estén
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: esté
+      p2: estés
+      p3: esté
+      m1: estemos
+      m2: estéis
+      m3: estén
+  Saber:
+    Indicativo Presente:
+      p1: sé
+      p2: sabes
+      p3: sabe
+      m1: sabemos
+      m2: sabéis
+      m3: saben
+    Indicativo Pretérito Indefinido:
+      p1: supe
+      p2: supiste
+      p3: supo
+      m1: supimos
+      m2: supisteis
+      m3: supieron
+    Indicativo Futuro:
+      p1: sabré
+      p2: sabrás
+      p3: sabrá
+      m1: sebremos
+      m2: sabréis
+      m3: sabrán
+    Imperativo:
+      p2: sabe
+      p3: sepa
+      m1: sepamos
+      m2: sabed
+      m3: sepan
+    Condicional:
+      p1: sabría
+      p2: sabrías
+      p3: sabría
+      m1: sabríamos
+      m2: sabríais
+      m3: sabrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: sepa
+      p2: sepas
+      p3: sepa
+      m1: sepamos
+      m2: sepáis
+      m3: sepan

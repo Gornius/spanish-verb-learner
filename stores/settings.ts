@@ -18,16 +18,15 @@ export const useStoreSettings = defineStore('settings', () => {
 
     function checkUncheckAllTimes() {
         let boolValForAll = true;
-        if (pickedPersons.value.some(person => person.checked)) {
+        if (pickedTimes.value.some(time => time.checked)) {
             boolValForAll = false;
         }
-        pickedPersons.value.forEach((person) => {
-            person.checked = boolValForAll;
+        pickedTimes.value.forEach((time) => {
+            time.checked = boolValForAll;
         });
     }
 
     function checkUncheckAllPersons() {
-        console.log('test');
         let boolValForAll = true;
         if (pickedPersons.value.some(person => person.checked)) {
             boolValForAll = false;

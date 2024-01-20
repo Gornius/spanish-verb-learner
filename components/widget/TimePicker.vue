@@ -21,6 +21,7 @@ const storeSettings = useStoreSettings();
                     <div class="flex-grow"></div>
                     <div><Switch :checked="time.checked" @update:checked="(checked) => time.checked = checked" /></div>
                 </div>
+                <Button type="button" variant="secondary" @click="storeSettings.checkUncheckAllTimes">Check/Uncheck all</Button>
             </div>
         </DialogContent>
     </Dialog>

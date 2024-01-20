@@ -2,7 +2,6 @@ import irregularVerbsFile from '~/assets/irregularVerbs.yaml?raw';
 import YAML from 'yaml';
 import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
-import { string } from 'yaml/dist/schema/common/string';
 
 export function useWordsDictionary() {
     function getPerson(verb: Verb | Verb['person']) {
@@ -36,13 +35,6 @@ export function useWordsDictionary() {
         });
     });
 
-    function getRandomWord() {
-        const min = Math.ceil(0);
-        const max = Math.floor(irregularVerbsList.length);
-        const random =  Math.floor(Math.random() * (max - min) + min)
-        return irregularVerbsList[random];
-    }
-
     function getAvailableTimes() {
         return [...new Set(irregularVerbsList.map((verb) => verb.time))];
     }
@@ -54,7 +46,6 @@ export function useWordsDictionary() {
     return {
         irregularVerbs,
         irregularVerbsList,
-        getRandomWord,
         getPerson,
         getAvailableTimes,
         getAvailablePersons,

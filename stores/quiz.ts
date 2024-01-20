@@ -9,12 +9,15 @@ export const useStoreQuiz = defineStore('quiz', () => {
         previousAnswers.value.push(answer);
     }
 
-    const currentVerb = ref<Verb>({} as Verb);
+    const currentVerb = ref<Verb | undefined>();
 
     function getNextVerb() {
         const list = wordsDictionary.irregularVerbsList
             .filter((verb) => !storeSettings.pickedPersons.some((person) => person.checked === false && person.name === verb.person))
             .filter((verb) => !storeSettings.pickedTimes.some((time) => time.checked === false && time.name == verb.time));
+        if (list.length === 0) {
+            currentVerb.value = undefined;
+        }
         const min = Math.ceil(0);
         const max = Math.floor(list.length);
         const random =  Math.floor(Math.random() * (max - min) + min)

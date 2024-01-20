@@ -1,27 +1,47 @@
+import { skipHydrate } from "pinia";
 import { type Verb } from "~/models/Verb";
 
+type CheckedTime = {
+    name: Verb['time'],
+    checked: boolean,
+}
+
+type CheckedPerson = {
+    name: Verb['person'],
+    checked: boolean,
+}
+
 export const useStoreSettings = defineStore('settings', () => {
-    type CheckedTime = {
-        name: Verb['time'],
-        checked: boolean,
-    }
-
-    type CheckedPerson = {
-        name: Verb['person'],
-        checked: boolean,
-    }
-
     const wordsDictionary = useWordsDictionary();
-    const pickedTimes = ref((() => wordsDictionary.getAvailableTimes().map((time) => ({ checked: true, name: time } as CheckedTime)))());
-    const pickedPersons = ref((() => wordsDictionary.getAvailablePersons().map((time) => ({ checked: true, name: time } as CheckedPerson)))());
+    const pickedTimes = useLocalStorage('pickedTimes', (() => wordsDictionary.getAvailableTimes().map((time) => ({ checked: true, name: time } as CheckedTime)))());
+    const pickedPersons = useLocalStorage('pickedPersons', (() => wordsDictionary.getAvailablePersons().map((time) => ({ checked: true, name: time } as CheckedPerson)))());
 
-    function checkAllTimes() {
+    function checkUncheckAllTimes() {
+        let boolValForAll = true;
+        if (pickedPersons.value.some(person => person.checked)) {
+            boolValForAll = false;
+        }
+        pickedPersons.value.forEach((person) => {
+            person.checked = boolValForAll;
+        });
+    }
 
+    function checkUncheckAllPersons() {
+        console.log('test');
+        let boolValForAll = true;
+        if (pickedPersons.value.some(person => person.checked)) {
+            boolValForAll = false;
+        }
+        pickedPersons.value.forEach((person) => {
+            person.checked = boolValForAll;
+        });
     }
 
     return {
-        pickedTimes,
-        pickedPersons,
+        pickedTimes: skipHydrate(pickedTimes),
+        pickedPersons: skipHydrate(pickedPersons),
+        checkUncheckAllPersons,
+        checkUncheckAllTimes,
     };
 
 });

@@ -2,9 +2,10 @@ import irregularVerbsFile from '~/assets/irregularVerbs.yaml?raw';
 import YAML from 'yaml';
 import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
+import { string } from 'yaml/dist/schema/common/string';
 
 export function useWordsDictionary() {
-    function getPerson(verb: Verb) {
+    function getPerson(verb: Verb | Verb['person']) {
         const personDictionary = {
             p1: '1. Singular',
             p2: '2. Singular',
@@ -13,6 +14,9 @@ export function useWordsDictionary() {
             m2: '2. Plural',
             m3: '3. Plural',
             all: 'Any',
+        }
+        if (typeof verb === 'string') {
+            return personDictionary[verb as Verb['person']];
         }
         return personDictionary[verb.person];
     }

@@ -1,5 +1,7 @@
 <template>
-    <div class="flex flex-row gap-2 sticky m-2 justify-end">
+    <div class="flex flex-row gap-2 sticky top-2 m-2 justify-end">
+        <WidgetPersonPicker />
+        <WidgetTimePicker />
         <WidgetSettings />
     </div>
     <slot></slot>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Answer } from '~/models/Answer';
+import { Icon } from '@iconify/vue';
 
 const wordsDictionary = useWordsDictionary();
 
@@ -11,7 +12,7 @@ const isCorrect = computed(() => props.answer.answer.toLocaleLowerCase() === pro
 
 </script>
 <template>
-    <Card class="mt-6 flex flex-col divide-y justify-evenly md:flex-row md:divide-y-0 md:divide-x">
+    <Card class="flex flex-col divide-y justify-evenly md:flex-row md:divide-y-0 md:divide-x">
         <CardContent class="grow pt-6 flex flex-col md:max-w-96 gap-2">
             <div class="text-4xl text-center">
                 {{ answer.verb.base }}

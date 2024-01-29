@@ -401,3 +401,547 @@ words:
       m1: sepamos
       m2: sepáis
       m3: sepan
+  Dar:
+    Gerundio:
+      all: dando
+    Indicativo Presente:
+      p1: doy
+      p2: das
+      p3: da
+      m1: damos
+      m2: dais
+      m3: dan
+    Indicativo Pretérito Indefinido:
+      p1: di
+      p2: diste
+      p3: dio
+      m1: dimos
+      m2: disteis
+      m3: dieron
+    Imperativo:
+      p2: da
+      p3: dé
+      m1: demos
+      m2: dad
+      m3: den
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: dé
+      p2: des
+      p3: dé
+      m1: demos
+      m2: deis
+      m3: den
+  Poder:
+    Gerundio:
+      all: pudiendo
+    Indicativo Presente:
+      p1: puedo
+      p2: puedes
+      p3: puede
+      m1: podemos
+      m2: podéis
+      m3: pueden
+    Indicativo Pretérito Indefinido:
+      p1: pude
+      p2: pudiste
+      p3: pudo
+      m1: pudimos
+      m2: pudisteis
+      m3: pudieron
+    Indicativo Futuro:
+      p1: podré
+      p2: podrás
+      p3: podrá
+      m1: podremos
+      m2: podréis
+      m3: podrán
+    Imperativo:
+      p2: puede
+      p3: pueda
+      m1: podamos
+      m2: poded
+      m3: puedan
+    Condicional:
+      p1: podría
+      p2: podrías
+      p3: podría
+      m1: podríamos
+      m2: podríais
+      m3: podrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: pueda
+      p2: puedas
+      p3: pueda
+      m1: podamos
+      m2: podáis
+      m3: puedan
+  Venir:
+    Gerundio:
+      all: viniendo
+    Indicativo Presente:
+      p1: vengo
+      p2: vienes
+      p3: viene
+      m1: venimos
+      m2: venís
+      m3: viene
+    Indicativo Pretérito Indefinido:
+      p1: vine
+      p2: viniste
+      p3: vino
+      m1: vinimos
+      m2: vinisteis
+      m3: vinieron
+    Indicativo Futuro:
+      p1: vendré
+      p2: vendrás
+      p3: vendrá
+      m1: vendremos
+      m2: vendréis
+      m3: vendrán
+    Imperativo:
+      p2: ven
+      p3: venga
+      m1: vengamos
+      m2: venid
+      m3: vengan
+    Condicional:
+      p1: vendría
+      p2: vendrías
+      p3: vendría
+      m1: vendríamos
+      m2: vendríais
+      m3: vendrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: venga
+      p2: vengas
+      p3: venga
+      m1: vengamos
+      m2: vengáis
+      m3: vengan
+  Ver:
+    Gerundio:
+      all: viendo
+    Participio:
+      all: visto
+    Indicativo Presente:
+      p1: veo
+      p2: ves
+      p3: ve
+      m1: vemos
+      m2: veis
+      m3: ven
+    Indicativo Pretérito Perfecto:
+      p1: he visto
+      p2: has visto
+      p3: ha visto
+      m1: hemos visto
+      m2: habéis visto
+      m3: han visto
+    Indicativo Pretérito Indefinido:
+      p1: vi
+      p2: viste
+      p3: vio
+      m1: vimos
+      m2: visteis
+      m3: vieron
+    Indicativo Pretérito Imperfecto:
+      p1: veía
+      p2: veías
+      p3: veía
+      m1: veíamos
+      m2: veíais
+      m3: veían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había visto
+      p2: habías visto
+      p3: había visto
+      m1: habíamos visto
+      m2: habíais visto
+      m3: habían visto
+    Indicativo Futuro Perfecto:
+      p1: habré visto
+      p2: habrás visto
+      p3: habrá visto
+      m1: habremos visto
+      m2: habréis visto
+      m3: habrán visto
+    Imperativo:
+      p2: ve
+      p3: vea
+      m1: veamos
+      m2: ved
+      m3: vean
+    Condicional:
+      p1: vería
+      p2: verías
+      p3: vería
+      m1: veríamos
+      m2: veríais
+      m3: verían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: vea
+      p2: veas
+      p3: vea
+      m1: veamos
+      m2: veáis
+      m3: vean
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera visto
+      p2: hubieras visto
+      p3: hubiera visto
+      m1: hubiéramos visto
+      m2: hubierais visto
+      m3: hubieran visto
+  Querer:
+    Indicativo Presente:
+      p1: quiero
+      p2: quieres
+      p3: quiere
+      m1: queremos
+      m2: queréis
+      m3: quieren
+    Indicativo Pretérito Indefinido:
+      p1: quise
+      p2: quisiste
+      p3: quiso
+      m1: quisimos
+      m2: quisisteis
+      m3: quisieron
+    Indicativo Futuro:
+      p1: querré
+      p2: querrás
+      p3: querrá
+      m1: querremos
+      m2: querréis
+      m3: querrán
+    Imperativo:
+      p2: quiere
+      p3: quiera
+      m1: queramos
+      m2: quered
+      m3: quieran
+    Condicional:
+      p1: querría
+      p2: querrías
+      p3: querría
+      m1: querríamos
+      m2: querríais
+      m3: querrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: quiera
+      p2: quieras
+      p3: quiera
+      m1: queramos
+      m2: queráis
+      m3: quieran
+  Salir:
+    Indicativo Presente:
+      p1: salgo
+      p2: sales
+      p3: sale
+      m1: salimos
+      m2: salís
+      m3: salen
+    Indicativo Futuro:
+      p1: saldré
+      p2: saldrás
+      p3: saldrá
+      m1: saldremos
+      m2: saldréis
+      m3: saldrán
+    Imperativo:
+      p2: sal
+      p3: salga
+      m1: salgamos
+      m2: salid
+      m3: salgan
+    Condicional:
+      p1: saldría
+      p2: saldrías
+      p3: saldría
+      m1: saldríamos
+      m2: saldríais
+      m3: saldrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: salga
+      p2: salgas
+      p3: salga
+      m1: salgamos
+      m2: salgáis
+      m3: salgan
+  Oír:
+    Gerundio:
+      all: oyendo
+    Indicativo Presente:
+      p1: oigo
+      p2: oyes
+      p3: oye
+      m1: oímos
+      m2: oís
+      m3: oyen
+    Indicativo Pretérito Indefinido:
+      p1: oí
+      p2: oíste
+      p3: oyó
+      m1: oímos
+      m2: oísteis
+      m3: oyeron
+    Imperativo:
+      p2: oye
+      p3: oiga
+      m1: oigamos
+      m2: oíd
+      m3: oigan
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: oiga
+      p2: oigas
+      p3: oiga
+      m1: oigamos
+      m2: oigáis
+      m3: oigan
+  Haber:
+    Indicativo Presente:
+      p1: he
+      p2: has
+      p3: ha, hay
+      m1: hemos, habemos
+      m2: habéis
+      m3: han
+    Indicativo Pretérito Indefinido:
+      p1: hube
+      p2: hubiste
+      p3: hubo
+      m1: hubimos
+      m2: hubisteis
+      m3: hubieron
+    Indicativo Futuro:
+      p1: habré
+      p2: habrás
+      p3: habrá
+      m1: habremos
+      m2: habréis
+      m3: habrán
+    Imperativo:
+      p2: he
+      p3: haya
+      m1: hayamos
+      m2: habed
+      m3: hayan
+    Condicional:
+      p1: habría
+      p2: habrías
+      p3: habría
+      m1: habríamos
+      m2: habríais
+      m3: habrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: haya
+      p2: hayas
+      p3: haya
+      m1: hayamos
+      m2: hayáis
+      m3: hayan
+  Morir:
+    Gerundio:
+      all: muriendo
+    Participio:
+      all: muerto
+    Indicativo Presente:
+      p1: muero
+      p2: mueres
+      p3: muere
+      m1: morimos
+      m2: morís
+      m3: mueren
+    Indicativo Pretérito Perfecto:
+      p1: he muerto
+      p2: has muerto
+      p3: ha muerto
+      m1: hemos muerto
+      m2: habéis muerto
+      m3: han muerto
+    Indicativo Pretérito Indefinido:
+      p1: morí
+      p2: moriste
+      p3: murió
+      m1: morimos
+      m2: moristeis
+      m3: murieron
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había muerto
+      p2: habías muerto
+      p3: había muerto
+      m1: habíamos muerto
+      m2: habíais muerto
+      m3: habían muerto
+    Indicativo Futuro Perfecto:
+      p1: habré muerto
+      p2: habrás muerto
+      p3: habrá muerto
+      m1: habremos muerto
+      m2: habréis muerto
+      m3: habrán muerto
+    Imperativo:
+      p2: muere
+      p3: muera
+      m1: muramos
+      m2: morid
+      m3: mueran
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: muera
+      p2: mueras
+      p3: muera
+      m1: muramos
+      m2: muráis
+      m3: mueran
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera muerto
+      p2: hubieras muerto
+      p3: hubiera muerto
+      m1: hubiéramos muerto
+      m2: hubierais muerto
+      m3: hubieran muerto
+  Caer:
+    Gerundio:
+      all: cayendo
+    Participio:
+      all: caído
+    Indicativo Presente:
+      p1: caigo
+      p2: caes
+      p3: cae
+      m1: caemos
+      m2: caéis
+      m3: caen
+    Indicativo Pretérito Perfecto:
+      p1: he caído
+      p2: has caído
+      p3: ha caído
+      m1: hemos caído
+      m2: habéis caído
+      m3: han caído
+    Indicativo Pretérito Indefinido:
+      p1: caí
+      p2: caíste
+      p3: cayó
+      m1: caímos
+      m2: caísteis
+      m3: cayeron
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había caído
+      p2: habías caído
+      p3: había caído
+      m1: habíamos caído
+      m2: habíais caído
+      m3: habían caído
+    Indicativo Futuro Perfecto:
+      p1: habré caído
+      p2: habrás caído
+      p3: habrá caído
+      m1: habremos caído
+      m2: habréis caído
+      m3: habrán caído
+    Imperativo:
+      p2: cae
+      p3: caiga
+      m1: caigamos
+      m2: caed
+      m3: caigan
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: caiga
+      p2: caigas
+      p3: caiga
+      m1: caigamos
+      m2: caigáis
+      m3: caigan
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera caído
+      p2: hubieras caído
+      p3: hubiera caído
+      m1: hubiéramos caído
+      m2: hubierais caído
+      m3: hubieran caído
+  Dormir:
+    Gerundio:
+      all: durmiendo
+    Indicativo Presente:
+      p1: duermo
+      p2: duermes
+      p3: duerme
+      m1: dormimos
+      m2: dormís
+      m3: duermen
+    Indicativo Pretérito Indefinido:
+      p1: dormí
+      p2: dormiste
+      p3: durmió
+      m1: dormimos
+      m2: dormisteis
+      m3: durmieron
+    Imperativo:
+      p2: duerme
+      p3: duerma
+      m1: durmamos
+      m2: dormid
+      m3: duerman
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: duerma
+      p2: duermas
+      p3: duerma
+      m1: durmamos
+      m2: durmáis
+      m3: duerman
+  Caber:
+    Indicativo Presente:
+      p1: quepo
+      p2: cabes
+      p3: cabe
+      m1: cabemos
+      m2: cabéis
+      m3: caben
+    Indicativo Pretérito Indefinido:
+      p1: cupe
+      p2: cupiste
+      p3: cupo
+      m1: cupimos
+      m2: cupisteis
+      m3: cupieron
+    Indicativo Futuro:
+      p1: cabré
+      p2: cabrás
+      p3: cabrá
+      m1: cabremos
+      m2: cabréis
+      m3: cabrán
+    Imperativo:
+      p2: cabe
+      p3: quepa
+      m1: quepamos
+      m2: cabed
+      m3: quepan
+    Condicional:
+      p1: cabría
+      p2: cabrías
+      p3: cabría
+      m1: cabríamos
+      m2: cabríais
+      m3: cabrían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: quepa
+      p2: quepas
+      p3: quepa
+      m1: quepamos
+      m2: quepáis
+      m3: quepan
+  Andar:
+    Indicativo Pretérito Indefinido:
+      p1: anduve
+      p2: anduviste
+      p3: anduvo
+      m1: anduvimos
+      m2: anduvisteis
+      m3: anduvieron
+
+
+

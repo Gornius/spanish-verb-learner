@@ -48,7 +48,6 @@ function giveAnswer() {
                         <Icon icon="ooui:next-ltr"/>
                     </Button>
                 </div>
-                {{ verb.word }}
                 <div class="text-sm" v-if="previousAnswer">
                     <span>Previous:&nbsp;</span>
                     <span class="text-green-500" v-if="previousAnswerCorrect === true">

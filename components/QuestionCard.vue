@@ -3,6 +3,8 @@ import type { Verb } from '~/models/Verb';
 import { Icon } from '@iconify/vue';
 
 const wordsDictionary = useWordsDictionary();
+const storeQuiz = useStoreQuiz();
+const wordComparator = useWordComparator();
 
 const props = defineProps<{
     verb: Verb,
@@ -13,11 +15,14 @@ const emits = defineEmits<{
 }>();
 
 const answer = useState<string>();
+const previousAnswer = computed(() => storeQuiz.previousAnswers.toReversed()[0]);
+const previousAnswerCorrect = computed(() => wordComparator.compareWords(previousAnswer.value.answer, previousAnswer.value.verb.word));
 
 function giveAnswer() {
     emits('answerGiven', answer.value);
     answer.value = '';
 }
+
 </script>
 <template>
     <form @submit.prevent="giveAnswer">
@@ -34,15 +39,30 @@ function giveAnswer() {
                 </div>
             </CardContent>
             <CardContent class="grow pt-6 flex flex-col justify-center gap-2">
-                    <div>
-                        <Label for="answer">Answer</Label>
-                    </div>
-                    <div class="flex flex-row gap-2">
-                        <Input id="answer" class="flex-grow" v-model="answer" />
-                        <Button type="submit" class="aspect-square p-0">
-                            <Icon icon="ooui:next-ltr"/>
-                        </Button>
-                    </div>
+                <div>
+                    <Label for="answer">Answer</Label>
+                </div>
+                <div class="flex flex-row gap-2">
+                    <Input id="answer" class="flex-grow" v-model="answer" />
+                    <Button type="submit" class="aspect-square p-0">
+                        <Icon icon="ooui:next-ltr"/>
+                    </Button>
+                </div>
+                {{ verb.word }}
+                <div class="text-sm" v-if="previousAnswer">
+                    <span>Previous:&nbsp;</span>
+                    <span class="text-green-500" v-if="previousAnswerCorrect === true">
+                        {{ previousAnswer.answer }}
+                    </span>
+                    <span v-else>
+                        <span class="text-red-500">{{ previousAnswer.answer }}</span>
+                        <span>,&nbsp;correct:&nbsp;</span>
+                        <span class="text-green-500">{{ previousAnswer.verb.word }}</span>
+                    </span>
+                </div>
+                <div class="text-sm" v-else>
+                    &nbsp; 
+                </div>
             </CardContent>
         </Card>
     </form>

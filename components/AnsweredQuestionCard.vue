@@ -3,12 +3,13 @@ import type { Answer } from '~/models/Answer';
 import { Icon } from '@iconify/vue';
 
 const wordsDictionary = useWordsDictionary();
+const wordComparator = useWordComparator();
 
 const props = defineProps<{
     answer: Answer,
 }>();
 
-const isCorrect = computed(() => props.answer.answer.toLocaleLowerCase() === props.answer.verb.word.toLocaleLowerCase());
+const isCorrect = computed(() => wordComparator.compareWords(props.answer.answer, props.answer.verb.word));
 
 </script>
 <template>

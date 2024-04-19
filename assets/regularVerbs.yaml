@@ -1,4 +1,22 @@
 words:
+  Decir:
+    Indicativo Pretérito Imperfecto:
+      p1: decía
+      p2: decías
+      p3: decía
+      m1: decíamos
+      m2: decíais
+      m3: decían
+  Hacer:
+    Gerundio: 
+      all: haciendo
+    Indicativo Pretérito Imperfecto:
+      p1: hacía
+      p2: hacías
+      p3: hacía
+      m1: hacíamos
+      m2: hacíais
+      m3: hacían
   Ir:
     Participio:
       all: ido
@@ -44,6 +62,13 @@ words:
       m1: hubiéramos ido
       m2: hubierais ido
       m3: hubieran ido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya ido
+      p2: hayas ido
+      p3: haya ido
+      m1: hayamos ido
+      m2: hayáis ido
+      m3: hayan ido
   Poner:
     Gerundio:
       all: poniendo
@@ -94,6 +119,20 @@ words:
       m1: hubiéramos tenido
       m2: hubierais tenido
       m3: hubieran tenido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya tenido
+      p2: hayas tenido
+      p3: haya tenido
+      m1: hayamos tenido
+      m2: hayáis tenido
+      m3: hayan tenido
+    Subjuntivo Imperfecto:
+      p1: tuviera
+      p2: tuvieras
+      p3: tuviera
+      m1: tuviéramos
+      m2: tuvierais
+      m3: tuvieran
   Ser:
     Gerundio:
       all: siendo
@@ -141,6 +180,13 @@ words:
       m1: hubiéramos sido
       m2: hubierais sido
       m3: hubieran sido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya sido
+      p2: hayas sido
+      p3: haya sido
+      m1: hayamos sido
+      m2: hayáis sido
+      m3: hayan sido
   Estar:
     Gerundio:
       all: estando
@@ -195,6 +241,13 @@ words:
       m1: hubiéramos estado
       m2: hubierais estado
       m3: hubieran estado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya estado
+      p2: hayas estado
+      p3: haya estado
+      m1: hayamos estado
+      m2: hayáis estado
+      m3: hayan estado
   Saber:
     Gerundio:
       all: sabiendo
@@ -234,7 +287,14 @@ words:
       p3: hubiera sabido
       m1: hubiéramos sabido
       m2: hubierais sabido
-      m3: hubieran sabido          
+      m3: hubieran sabido  
+    Subjuntivo Pretérito Perfecto:
+      p1: haya sabido
+      p2: hayas sabido
+      p3: haya sabido
+      m1: hayamos sabido
+      m2: hayáis sabido
+      m3: hayan sabido        
   Dar:
     Participio:
       all: dado
@@ -287,6 +347,13 @@ words:
       m1: hubiéramos dado
       m2: hubierais dado
       m3: hubieran dado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya dado
+      p2: hayas dado
+      p3: haya dado
+      m1: hayamos dado
+      m2: hayáis dado
+      m3: hayan dado
   Poder:
     Participio:
       all: podido
@@ -325,6 +392,20 @@ words:
       m1: hubiéramos podido
       m2: hubierais podido
       m3: hubieran podido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya podido
+      p2: hayas podido
+      p3: haya podido
+      m1: hayamos podido
+      m2: hayáis podido
+      m3: hayan podido
+    Subjuntivo Imperfecto:
+      p1: pudiera
+      p2: pudieras
+      p3: pudiera
+      m1: pudiéramos
+      m2: pudierais
+      m3: pudieran
   Venir:
     Participio:
       all: venido
@@ -363,6 +444,13 @@ words:
       m1: hubiéramos venido
       m2: hubierais venido
       m3: hubieran venido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya venido
+      p2: hayas venido
+      p3: haya venido
+      m1: hayamos venido
+      m2: hayáis venido
+      m3: hayan venido
   Ver:
     Indicativo Futuro:
       p1: veré
@@ -371,6 +459,13 @@ words:
       m1: veremos
       m2: veréis
       m3: verán
+    Subjuntivo Imperfecto:
+      p1: viera
+      p2: vieras
+      p3: viera
+      m1: viéramos
+      m2: vierais
+      m3: vieran
   Querer:
     Gerundio:
       all: queriendo
@@ -411,6 +506,20 @@ words:
       m1: hubiéramos querido
       m2: hubierais querido
       m3: hubieran querido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya querido
+      p2: hayas querido
+      p3: haya querido
+      m1: hayamos querido
+      m2: hayáis querido
+      m3: hayan querido
+    Subjuntivo Imperfecto:
+      p1: quisiera
+      p2: quisieras
+      p3: quisiera
+      m1: quisiéramos
+      m2: quisierais
+      m3: quisieran
   Salir:
     Gerundio:
       all: saliendo
@@ -458,6 +567,20 @@ words:
       m1: hubiéramos salido
       m2: hubierais salido
       m3: hubieran salido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya salido
+      p2: hayas salido
+      p3: haya salido
+      m1: hayamos salido
+      m2: hayáis salido
+      m3: hayan salido
+    Subjuntivo Imperfecto:
+      p1: saliera
+      p2: salieras
+      p3: saliera
+      m1: saliéramos
+      m2: salierais
+      m3: salieran
   Oír:
     Participio:
       all: oído
@@ -510,6 +633,13 @@ words:
       m1: hubiéramos oído
       m2: hubierais oído
       m3: hubieran oído
+    Subjuntivo Pretérito Perfecto:
+      p1: haya oído
+      p2: hayas oído
+      p3: haya oído
+      m1: hayamos oído
+      m2: hayáis oído
+      m3: hayan oído
   Haber:
     Gerundio:
       all: habiendo
@@ -550,6 +680,13 @@ words:
       m1: hubiéramos habido
       m2: hubierais habido
       m3: hubieran habido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya habido
+      p2: hayas habido
+      p3: haya habido
+      m1: hayamos habido
+      m2: hayáis habido
+      m3: hayan habido
   Morir:
     Indicativo Pretérito Imperfecto:
       p1: moría
@@ -572,6 +709,13 @@ words:
       m1: moriríamos
       m2: moriríais
       m3: morirían
+    Subjuntivo Imperfecto:
+      p1: muriera
+      p2: murieras
+      p3: muriera
+      m1: muriéramos
+      m2: murierais
+      m3: murieran
   Caer:
     Indicativo Pretérito Imperfecto:
       p1: caía
@@ -646,6 +790,20 @@ words:
       m1: hubiéramos dormido
       m2: hubierais dormido
       m3: hubieran dormido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya dormido
+      p2: hayas dormido
+      p3: haya dormido
+      m1: hayamos dormido
+      m2: hayáis dormido
+      m3: hayan dormido
+    Subjuntivo Imperfecto:
+      p1: durmiera
+      p2: durmieras
+      p3: durmiera
+      m1: durmiéramos
+      m2: durmierais
+      m3: durmieran
   Caber:
     Gerundio:
       all: cabiendo
@@ -686,6 +844,20 @@ words:
       m1: hubiéramos cabido
       m2: hubierais cabido
       m3: hubieran cabido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya cabido
+      p2: hayas cabido
+      p3: haya cabido
+      m1: hayamos cabido
+      m2: hayáis cabido
+      m3: hayan cabido
+    Subjuntivo Imperfecto:
+      p1: cupiera
+      p2: cupieras
+      p3: cupiera
+      m1: cupiéramos
+      m2: cupierais
+      m3: cupieran
   Andar:
     Gerundio:
       all: andando
@@ -760,3 +932,594 @@ words:
       m1: hubiéramos andado
       m2: hubierais andado
       m3: hubieran andado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya andado
+      p2: hayas andado
+      p3: haya andado
+      m1: hayamos andado
+      m2: hayáis andado
+      m3: hayan andado
+    Subjuntivo Imperfecto:
+      p1: anduviera
+      p2: anduvieras
+      p3: anduviera
+      m1: anduviéramos
+      m2: anduvierais
+      m3: anduvieran
+  Abrir:
+    Gerundio:
+      all: abriendo
+    Indicativo Presente:
+      p1: abro
+      p2: abres
+      p3: abre
+      m1: abrimos
+      m2: abrís
+      m3: abren
+    Indicativo Pretérito Indefinido:
+      p1: abrí
+      p2: abriste
+      p3: abrió
+      m1: abrimos
+      m2: abristeis
+      m3: abrieron
+    Indicativo Pretérito Imperfecto:
+      p1: abría
+      p2: abrías
+      p3: abría
+      m1: abríamos
+      m2: abríais
+      m3: abrían
+    Indicativo Futuro:
+      p1: abriré
+      p2: abrirás
+      p3: abrirá
+      m1: abriremos
+      m2: abriréis
+      m3: abrirán
+    Imperativo:
+      p2: abre
+      p3: abra
+      m1: abramos
+      m2: abrid
+      m3: abrab
+    Condicional:
+      p1: abriría
+      p2: abrirías
+      p3: abriría
+      m1: abriríamos
+      m2: abriríais
+      m3: abrirían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: abra
+      p2: abras
+      p3: abra
+      m1: abramos
+      m2: abráis
+      m3: abran
+    Subjuntivo Imperfecto:
+      p1: abriera
+      p2: abrieras
+      p3: abriera
+      m1: abriéramos
+      m2: abrierais
+      m3: abrieran
+  Bailar:
+    Gerundio:
+      all: bailando
+    Participio:
+      all: bailado
+    Indicativo Presente:
+      p1: bailo
+      p2: bailas
+      p3: baila
+      m1: bailamos
+      m2: bailáis
+      m3: bailan
+    Indicativo Pretérito Perfecto:
+      p1: he bailado
+      p2: has bailado
+      p3: ha bailado
+      m1: hemos bailado
+      m2: habéis bailado
+      m3: han bailado
+    Indicativo Pretérito Indefinido:
+      p1: bailé
+      p2: bailaste
+      p3: bailó
+      m1: bailamos
+      m2: bailasteis
+      m3: baliaron
+    Indicativo Pretérito Imperfecto:
+      p1: bailaba
+      p2: bailabas
+      p3: bailaba
+      m1: bailabamos
+      m2: bailabais
+      m3: bailaban
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había bailado
+      p2: habías bailado
+      p3: había bailado
+      m1: habíamos bailado
+      m2: habíais bailado
+      m3: habían bailado
+    Indicativo Futuro:
+      p1: bailaré
+      p2: bailarás
+      p3: bailará
+      m1: bailaremos
+      m2: bailaréis
+      m3: bailarán
+    Indicativo Futuro Perfecto:
+      p1: habré bailado
+      p2: habrás bailado
+      p3: habrá bailado
+      m1: habremos bailado
+      m2: habréis bailado
+      m3: habrán bailado
+    Imperativo:
+      p2: baila
+      p3: baile
+      m1: bailemos
+      m2: bailad
+      m3: bailen
+    Condicional:
+      p1: bailaría
+      p2: bailarías
+      p3: bailaría
+      m1: bailaríamos
+      m2: bailaríais
+      m3: bailarían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: baile
+      p2: bailes
+      p3: baile
+      m1: bailemos
+      m2: bailéis
+      m3: bailen
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera bailado
+      p2: hubieras bailado
+      p3: hubiera bailado
+      m1: hubiéramos bailado
+      m2: hubierais bailado
+      m3: hubieran bailado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya bailado
+      p2: hayas bailado
+      p3: haya bailado
+      m1: hayamos bailado
+      m2: hayáis bailado
+      m3: hayan bailado
+    Subjuntivo Imperfecto:
+      p1: bailara
+      p2: bailaras
+      p3: bailara
+      m1: bailáramos
+      m2: bailarais
+      m3: bailaran
+  Caminar:
+    Gerundio:
+      all: caminando
+    Participio:
+      all: caminado
+    Indicativo Presente:
+      p1: camino
+      p2: caminas
+      p3: camina
+      m1: caminamos
+      m2: camináis
+      m3: caminán
+    Indicativo Pretérito Perfecto:
+      p1: he caminado
+      p2: has caminado
+      p3: ha caminado
+      m1: hemos caminado
+      m2: habéis caminado
+      m3: han caminado
+    Indicativo Pretérito Indefinido:
+      p1: caminé
+      p2: caminaste
+      p3: caminó
+      m1: caminamos
+      m2: caminasteis
+      m3: caminaron
+    Indicativo Pretérito Imperfecto:
+      p1: caminaba
+      p2: caminabas
+      p3: caminaba
+      m1: caminábamos
+      m2: caminabais
+      m3: caminaban
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había caminado
+      p2: habías caminado
+      p3: había caminado
+      m1: habíamos caminado
+      m2: habíais caminado
+      m3: habían caminado
+    Indicativo Futuro:
+      p1: caminaré
+      p2: caminarás
+      p3: caminará
+      m1: caminaremos
+      m2: caminaréis
+      m3: caminarán
+    Indicativo Futuro Perfecto:
+      p1: habré caminado
+      p2: habrás caminado
+      p3: habrá caminado
+      m1: habremos caminado
+      m2: habréis caminado
+      m3: habrán caminado
+    Imperativo:
+      p2: camina
+      p3: camine
+      m1: caminemos
+      m2: caminad
+      m3: caminen
+    Condicional:
+      p1: caminaría
+      p2: caminarías
+      p3: caminaría
+      m1: caminaríamos
+      m2: caminaríais
+      m3: caminarían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: camine
+      p2: camines
+      p3: camine
+      m1: caminemos
+      m2: caminéis
+      m3: caminen
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera caminado
+      p2: hubieras caminado
+      p3: hubiera caminado
+      m1: hubiéramos caminado
+      m2: hubierais caminado
+      m3: hubieran caminado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya caminado
+      p2: hayas caminado
+      p3: haya caminado
+      m1: hayamos caminado
+      m2: hayáis caminado
+      m3: hayan caminado
+    Subjuntivo Imperfecto:
+      p1: caminara
+      p2: caminaras
+      p3: caminara
+      m1: camináramos
+      m2: caminarais
+      m3: caminaran
+  Dirigir:
+    Gerundio:
+      all: dirigiendo
+    Participio:
+      all: dirigido
+    Indicativo Pretérito Perfecto:
+      p1: he dirigido
+      p2: has dirigido
+      p3: ha dirigido
+      m1: hemos dirigido
+      m2: habéis dirigido
+      m3: han dirigido
+    Indicativo Pretérito Indefinido:
+      p1: dirigí
+      p2: dirigiste
+      p3: dirigió
+      m1: dirigimos
+      m2: dirigisteis
+      m3: dirigen
+    Indicativo Pretérito Imperfecto:
+      p1: dirigía
+      p2: dirigías
+      p3: dirigía
+      m1: dirigíamos
+      m2: dirigíais
+      m3: dirigían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había dirigido
+      p2: habías dirigido
+      p3: había dirigido
+      m1: habíamos dirigido
+      m2: habíais dirigido
+      m3: habían dirigido
+    Indicativo Futuro:
+      p1: dirigiré
+      p2: dirigirás
+      p3: dirigirá
+      m1: dirigiremos
+      m2: dirigiréis
+      m3: dirigirán
+    Indicativo Futuro Perfecto:
+      p1: habré dirigido
+      p2: habrás dirigido
+      p3: habrá dirigido
+      m1: habremos dirigido
+      m2: habréis dirigido
+      m3: habrán dirigido
+    Condicional:
+      p1: dirigiría
+      p2: dirigirías
+      p3: dirigiría
+      m1: dirigiríamos
+      m2: dirigiríais
+      m3: dirigirían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera dirigido
+      p2: hubieras dirigido
+      p3: hubiera dirigido
+      m1: hubiéramos dirigido
+      m2: hubierais dirigido
+      m3: hubieran dirigido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya dirigido
+      p2: hayas dirigido
+      p3: haya dirigido
+      m1: hayamos dirigido
+      m2: hayáis dirigido
+      m3: hayan dirigido
+    Subjuntivo Imperfecto:
+      p1: dirigiera
+      p2: dirigieras
+      p3: dirigiera
+      m1: dirigiéramos
+      m2: dirigierais
+      m3: dirigieran
+  Encontrar:
+    Gerundio:
+      all: encontrando
+    Participio:
+      all: encontrado
+    Indicativo Pretérito Perfecto:
+      p1: he encontrado
+      p2: has encontrado
+      p3: ha encontrado
+      m1: hemos encontrado
+      m2: habéis encontrado
+      m3: han encontrado
+    Indicativo Pretérito Indefinido:
+      p1: encontré
+      p2: encontraste
+      p3: encontró
+      m1: encontramos
+      m2: encontrasteis
+      m3: encontraron
+    Indicativo Pretérito Imperfecto:
+      p1: encontraba
+      p2: encontrabas
+      p3: encontraba
+      m1: encontrábamos
+      m2: encontrabais
+      m3: encontraban
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había encontrado
+      p2: habías encontrado
+      p3: había encontrado
+      m1: habíamos encontrado
+      m2: habíais encontrado
+      m3: habían encontrado
+    Indicativo Futuro:
+      p1: encontraré
+      p2: encontrarás
+      p3: encontrará
+      m1: encontraremos
+      m2: encontraréis
+      m3: encontrarán
+    Indicativo Futuro Perfecto:
+      p1: habré encontrado
+      p2: habrás encontrado
+      p3: habrá encontrado
+      m1: habremos encontrado
+      m2: habréis encontrado
+      m3: habrán encontrado
+    Condicional:
+      p1: encontraría
+      p2: encontrarías
+      p3: encontraría
+      m1: encontraríamos
+      m2: encontraríais
+      m3: encontrarían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera encontrado
+      p2: hubieras encontrado
+      p3: hubiera encontrado
+      m1: hubiéramos encontrado
+      m2: hubierais encontrado
+      m3: hubieran encontrado
+    Subjuntivo Pretérito Perfecto:
+      p1: haya encontrado
+      p2: hayas encontrado
+      p3: haya encontrado
+      m1: hayamos encontrado
+      m2: hayáis encontrado
+      m3: hayan encontrado
+    Subjuntivo Imperfecto:
+      p1: encontrara
+      p2: encontraras
+      p3: encontrara
+      m1: encontráramos
+      m2: encontrarais
+      m3: encontraran
+  Leer:
+    Indicativo Presente:
+      p1: leo
+      p2: lees
+      p3: lee
+      m1: leemos
+      m2: leéis
+      m3: leen
+    Indicativo Pretérito Imperfecto:
+      p1: leía
+      p2: leías
+      p3: leía
+      m1: leíamos
+      m2: leíais
+      m3: leían
+    Indicativo Futuro:
+      p1: leeré
+      p2: leerás
+      p3: leerá
+      m1: leeremos
+      m2: leeréis
+      m3: leeren
+    Condicional:
+      p1: leería
+      p2: leerías
+      p3: leería
+      m1: leeríamos
+      m2: leeríais
+      m3: leerían
+    Subjuntivo Presente o Imperativo Negativo:
+      p1: lea
+      p2: leas
+      p3: lea
+      m1: leamos
+      m2: leáis
+      m3: lean
+  Huir:
+    Participio:
+      all: huido
+    Indicativo Pretérito Perfecto:
+      p1: he huido
+      p2: has huido
+      p3: ha huido
+      m1: hemos huido
+      m2: habéis huido
+      m3: han huido
+    Indicativo Pretérito Imperfecto:
+      p1: huía
+      p2: huías
+      p3: huía
+      m1: huíamos
+      m2: huías
+      m3: huían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había huido
+      p2: habías huido
+      p3: había huido
+      m1: habíamos huido
+      m2: habíais huido
+      m3: habían huido
+    Indicativo Futuro:
+      p1: huiré
+      p2: huirás
+      p3: huirá
+      m1: huiremos
+      m2: huiréis
+      m3: huirán
+    Indicativo Futuro Perfecto:
+      p1: habré huido
+      p2: habrás huido
+      p3: habrá huido
+      m1: habremos huido
+      m2: habréis huido
+      m3: habrán huido
+    Condicional:
+      p1: huiría
+      p2: huirías
+      p3: huiría
+      m1: huiríamos
+      m2: huiríais
+      m3: huirían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera huido
+      p2: hubieras huido
+      p3: hubiera huido
+      m1: hubiéramos huido
+      m2: hubierais huido
+      m3: hubieran huido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya huido
+      p2: hayas huido
+      p3: haya huido
+      m1: hayamos huido
+      m2: hayáis huido
+      m3: hayan huido
+  Traducir:
+    Gerundio:
+      all: traduciendo
+    Participio:
+      all: traducido  
+    Indicativo Pretérito Perfecto:
+      p1: he traducido
+      p2: has traducido
+      p3: ha traducido
+      m1: hemos traducido
+      m2: habéis traducido
+      m3: han traducido
+    Indicativo Pretérito Imperfecto:
+      p1: traducía
+      p2: traducías
+      p3: traducía
+      m1: traducíamos
+      m2: traducíais
+      m3: traducían
+    Indicativo Pretérito Plusquamperfecto:
+      p1: había traducido
+      p2: habías traducido
+      p3: había traducido
+      m1: habíamos traducido
+      m2: habíais traducido
+      m3: habían traducido
+    Indicativo Futuro:
+      p1: traduciré
+      p2: traducirás
+      p3: traducirá
+      m1: draduciremos
+      m2: traduciréis
+      m3: traducirán
+    Indicativo Futuro Perfecto:
+      p1: habré traducido
+      p2: habrás traducido
+      p3: habrá traducido
+      m1: habremos traducido
+      m2: habréis traducido
+      m3: habrán traducido
+    Condicional:
+      p1: traduciría
+      p2: traducirías
+      p3: traduciría
+      m1: traduciríamos
+      m2: traduciríais
+      m3: traducirían
+    Subjuntivo Pretérito Plusquamperfecto:
+      p1: hubiera traducido
+      p2: hubieras traducido
+      p3: hubiera traducido
+      m1: hubiéramos traducido
+      m2: hubierais traducido
+      m3: hubieran traducido
+    Subjuntivo Pretérito Perfecto:
+      p1: haya traducido
+      p2: hayas traducido
+      p3: haya traducido
+      m1: hayamos traducido
+      m2: hayáis traducido
+      m3: hayan traducido
+  Traer:
+    Indicativo Pretérito Imperfecto:
+      p1: traía
+      p2: traías
+      p3: traía
+      m1: traíamos
+      m2: traíais
+      m3: traían
+    Indicativo Futuro:
+      p1: traeré
+      p2: traerás
+      p3: traerá
+      m1: traeremos
+      m2: traeréis
+      m3: traerán
+    Condicional:
+      p1: traería
+      p2: traerías
+      p3: traería
+      m1: traeríamos
+      m2: traeríais
+      m3: traería
+

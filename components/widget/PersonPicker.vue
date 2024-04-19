@@ -17,13 +17,18 @@ const storeSettings = useStoreSettings();
                 Pick a person
             </DialogHeader>
             <div class="flex flex-col gap-1">
+                <Button class="mb-2" type="button" variant="outline" @click="storeSettings.checkUncheckAllPersons">Check/Uncheck all</Button>
                 <div class="flex flex-row" v-for="person in storeSettings.pickedPersons">
                     <div>{{ wordsDictionary.getPerson(person.name) }}</div>
                     <div class="flex-grow"></div>
-                    <div><Switch :checked="person.checked" @update:checked="(checked) => person.checked = checked" /></div>
+                    <div><Switch v-model:checked="person.checked"/></div>
                 </div>
-                <Button type="button" variant="secondary" @click="storeSettings.checkUncheckAllPersons">Check/Uncheck all</Button>
             </div>
+            <DialogFooter>
+                <DialogClose as-child>
+                    <Button class="w-full" type="button" variant="secondary">Close</Button>
+                </DialogClose>
+            </DialogFooter>
         </DialogContent>
     </Dialog>
 </template>

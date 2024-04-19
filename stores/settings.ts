@@ -46,11 +46,22 @@ export const useStoreSettings = defineStore('settings', () => {
         });
     }
 
+    function checkUncheckAllTypes() {
+        let boolValForAll = true;
+        if (pickedVerbsTypes.value.some(type => type.checked)) {
+            boolValForAll = false;
+        }
+        pickedVerbsTypes.value.forEach((type) => {
+            type.checked = boolValForAll;
+        });
+    }
+
     return {
         pickedTimes: skipHydrate(pickedTimes),
         pickedPersons: skipHydrate(pickedPersons),
         checkUncheckAllPersons,
         checkUncheckAllTimes,
+        checkUncheckAllTypes,
         pickedVerbsTypes,
         verbsPool,
     };

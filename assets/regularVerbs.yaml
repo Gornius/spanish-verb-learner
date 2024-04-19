@@ -126,13 +126,6 @@ words:
       m1: hayamos tenido
       m2: hayáis tenido
       m3: hayan tenido
-    Subjuntivo Imperfecto:
-      p1: tuviera
-      p2: tuvieras
-      p3: tuviera
-      m1: tuviéramos
-      m2: tuvierais
-      m3: tuvieran
   Ser:
     Gerundio:
       all: siendo
@@ -399,13 +392,6 @@ words:
       m1: hayamos podido
       m2: hayáis podido
       m3: hayan podido
-    Subjuntivo Imperfecto:
-      p1: pudiera
-      p2: pudieras
-      p3: pudiera
-      m1: pudiéramos
-      m2: pudierais
-      m3: pudieran
   Venir:
     Participio:
       all: venido
@@ -702,13 +688,6 @@ words:
       m1: moriríamos
       m2: moriríais
       m3: morirían
-    Subjuntivo Imperfecto:
-      p1: muriera
-      p2: murieras
-      p3: muriera
-      m1: muriéramos
-      m2: murierais
-      m3: murieran
   Caer:
     Indicativo Pretérito Imperfecto:
       p1: caía
@@ -790,13 +769,6 @@ words:
       m1: hayamos dormido
       m2: hayáis dormido
       m3: hayan dormido
-    Subjuntivo Imperfecto:
-      p1: durmiera
-      p2: durmieras
-      p3: durmiera
-      m1: durmiéramos
-      m2: durmierais
-      m3: durmieran
   Caber:
     Gerundio:
       all: cabiendo
@@ -844,13 +816,6 @@ words:
       m1: hayamos cabido
       m2: hayáis cabido
       m3: hayan cabido
-    Subjuntivo Imperfecto:
-      p1: cupiera
-      p2: cupieras
-      p3: cupiera
-      m1: cupiéramos
-      m2: cupierais
-      m3: cupieran
   Andar:
     Gerundio:
       all: andando
@@ -932,13 +897,6 @@ words:
       m1: hayamos andado
       m2: hayáis andado
       m3: hayan andado
-    Subjuntivo Imperfecto:
-      p1: anduviera
-      p2: anduvieras
-      p3: anduviera
-      m1: anduviéramos
-      m2: anduvierais
-      m3: anduvieran
   Abrir:
     Gerundio:
       all: abriendo

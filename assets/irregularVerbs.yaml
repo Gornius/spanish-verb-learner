@@ -345,6 +345,13 @@ words:
       m1: tengamos
       m2: tengáis
       m3: tengan
+    Subjuntivo Imperfecto:
+      p1: tuviera
+      p2: tuvieras
+      p3: tuviera
+      m1: tuviéramos
+      m2: tuvierais
+      m3: tuvieran
   Ser:
     Indicativo Presente:
       p1: soy
@@ -552,6 +559,13 @@ words:
       m1: podamos
       m2: podáis
       m3: puedan
+    Subjuntivo Imperfecto:
+      p1: pudiera
+      p2: pudieras
+      p3: pudiera
+      m1: pudiéramos
+      m2: pudierais
+      m3: pudieran
   Venir:
     Gerundio:
       all: viniendo
@@ -921,6 +935,13 @@ words:
       m1: hayamos muerto
       m2: hayáis muerto
       m3: hayan muerto
+    Subjuntivo Imperfecto:
+      p1: muriera
+      p2: murieras
+      p3: muriera
+      m1: muriéramos
+      m2: murierais
+      m3: murieran
   Caer:
     Gerundio:
       all: cayendo
@@ -1025,6 +1046,13 @@ words:
       m1: durmamos
       m2: durmáis
       m3: duerman
+    Subjuntivo Imperfecto:
+      p1: durmiera
+      p2: durmieras
+      p3: durmiera
+      m1: durmiéramos
+      m2: durmierais
+      m3: durmieran
   Caber:
     Indicativo Presente:
       p1: quepo
@@ -1067,6 +1095,13 @@ words:
       m1: quepamos
       m2: quepáis
       m3: quepan
+    Subjuntivo Imperfecto:
+      p1: cupiera
+      p2: cupieras
+      p3: cupiera
+      m1: cupiéramos
+      m2: cupierais
+      m3: cupieran
   Andar:
     Indicativo Pretérito Indefinido:
       p1: anduve
@@ -1075,6 +1110,13 @@ words:
       m1: anduvimos
       m2: anduvisteis
       m3: anduvieron
+    Subjuntivo Imperfecto:
+      p1: anduviera
+      p2: anduvieras
+      p3: anduviera
+      m1: anduviéramos
+      m2: anduvierais
+      m3: anduvieran
   Abrir:
     Participio:
       all: abierto

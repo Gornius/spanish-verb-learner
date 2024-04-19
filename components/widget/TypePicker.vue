@@ -15,14 +15,19 @@ const storeSettings = useStoreSettings();
             <DialogHeader>
                 Pick a type
             </DialogHeader>
+            <Button class="mb-2" type="button" variant="outline" @click="storeSettings.checkUncheckAllTypes">Check/Uncheck all</Button>
             <div class="flex flex-col gap-1">
                 <div class="flex flex-row" v-for="type in storeSettings.pickedVerbsTypes">
                     <div>{{ type.name }}</div>
                     <div class="flex-grow"></div>
-                    <div><Switch :checked="type.checked" @update:checked="(checked) => type.checked = checked" /></div>
+                    <div><Switch v-model:checked="type.checked" /></div>
                 </div>
-                <Button type="button" variant="secondary" @click="storeSettings.checkUncheckAllPersons">Check/Uncheck all</Button>
             </div>
+            <DialogFooter>
+                <DialogClose as-child>
+                    <Button class="w-full" type="button" variant="secondary">Close</Button>
+                </DialogClose>
+            </DialogFooter>
         </DialogContent>
     </Dialog>
 </template>

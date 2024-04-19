@@ -726,6 +726,13 @@ words:
       m1: queramos
       m2: queráis
       m3: quieran
+    Subjuntivo Imperfecto:
+      p1: quisiera
+      p2: quisieras
+      p3: quisiera
+      m1: quisiéramos
+      m2: quisierais
+      m3: quisieran
   Salir:
     Indicativo Presente:
       p1: salgo

@@ -4,6 +4,7 @@ import YAML from 'yaml';
 import { type Verb } from '~/models/Verb';
 import { type DictionaryEntry } from '~/models/DictionaryEntry';
 
+// Todo: change this from composable to util, as it doesn't hold any state
 export function useWordsDictionary() {
     function getPerson(verb: Verb | Verb['person']) {
         const personDictionary = {

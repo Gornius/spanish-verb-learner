@@ -13,7 +13,7 @@ export function useWordsDictionary() {
             m1: '1. Plural',
             m2: '2. Plural',
             m3: '3. Plural',
-            all: 'Any',
+            all: 'All',
         }
         if (typeof verb === 'string') {
             return personDictionary[verb as Verb['person']];

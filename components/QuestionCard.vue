@@ -26,7 +26,6 @@ function giveAnswer() {
 
 </script>
 <template>
-    {{ verb.word }}
     <form @submit.prevent="giveAnswer">
         <Card class="flex flex-col divide-y justify-evenly md:flex-row md:divide-y-0 md:divide-x">
             <CardContent class="grow pt-6 flex flex-col md:max-w-96 gap-2 content-center justify-center">

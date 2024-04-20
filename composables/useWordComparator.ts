@@ -2,8 +2,9 @@
 export function useWordComparator() {
     function normalize(word: string): string {
         return word
-        .toLocaleLowerCase()
-        .trim()
+            .toLocaleLowerCase()
+            .trim()
+            .replaceAll(/\s+/g, " ");
     }
 
     function compareWords(firstWord: string, secondWord: string) {

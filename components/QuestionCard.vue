@@ -19,6 +19,7 @@ const previousAnswer = computed(() => storeQuiz.previousAnswers.toReversed()[0])
 const previousAnswerCorrect = computed(() => wordComparator.compareWords(previousAnswer.value.answer, previousAnswer.value.verb.word));
 
 function giveAnswer() {
+    document.getElementById('answer')?.focus();
     emits('answerGiven', answer.value);
     answer.value = '';
 }
@@ -43,7 +44,7 @@ function giveAnswer() {
                     <Label for="answer">Answer</Label>
                 </div>
                 <div class="flex flex-row gap-2">
-                    <Input id="answer" class="flex-grow" v-model="answer" />
+                    <Input autofocus id="answer" class="flex-grow" v-model="answer" />
                     <Button type="submit" class="aspect-square p-0">
                         <Icon icon="ooui:next-ltr"/>
                     </Button>

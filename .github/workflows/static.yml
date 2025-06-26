@@ -37,10 +37,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.9.0
+      - name: install pnpm
+        run: npm i -g pnpm
       - name: Download deps
-        run: npm install
+        run: pnpm install
       - name: Build static Nuxt assets
-        run: npm run generate
+        run: pnpm run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

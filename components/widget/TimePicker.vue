@@ -12,7 +12,7 @@ const storeSettings = useStoreSettings();
       </div>
     </DialogTrigger>
     <DialogContent>
-      <DialogHeader> Pick a time </DialogHeader>
+      <DialogHeader> Pick a tense </DialogHeader>
       <div class="flex flex-col gap-1">
         <Button
           class="mb-2"

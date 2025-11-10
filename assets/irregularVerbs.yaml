@@ -95,7 +95,7 @@ words:
       p2: haces
       p3: hace
       m1: hacemos
-      m2: haceís
+      m2: hacéis
       m3: hacen
     Indicativo Pretérito Perfecto:
       p1: he hecho
@@ -106,7 +106,7 @@ words:
       m3: han hecho
     Indicativo Pretérito Indefinido:
       p1: hice
-      p2: hices
+      p2: hiciste
       p3: hizo
       m1: hicimos
       m2: hicisteis
@@ -369,7 +369,7 @@ words:
       m3: fueron
     Indicativo Pretérito Imperfecto:
       p1: era
-      p2: era
+      p2: eras
       p3: era
       m1: éramos
       m2: erais
@@ -448,7 +448,7 @@ words:
       p1: sabré
       p2: sabrás
       p3: sabrá
-      m1: sebremos
+      m1: sabremos
       m2: sabréis
       m3: sabrán
     Imperativo:
@@ -575,7 +575,7 @@ words:
       p3: viene
       m1: venimos
       m2: venís
-      m3: viene
+      m3: vienen
     Indicativo Pretérito Indefinido:
       p1: vine
       p2: viniste
